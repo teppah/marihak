@@ -23,7 +23,7 @@ const HelloWorldWidget = (props: PropType) => {
 
   return (
     <div>
-      <h1>The value is {helloValue}</h1>
+      <h2>You have received the following greeting: {helloValue}</h2>
     </div>
   );
 };
