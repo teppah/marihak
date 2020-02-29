@@ -18,5 +18,5 @@ export default async (
 ) => {
   const { type } = req.query;
   await delay(400, null);
-  res.status(200).end(JSON.stringify({ value: "Hello World!" }));
+  res.status(200).end(JSON.stringify({ value: "Hello World, that happens on the server (serverless)!!" }));
 };

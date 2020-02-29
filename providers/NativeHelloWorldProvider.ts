@@ -7,7 +7,7 @@ function delay(t, val) {
   }
 
 const getNativeHelloWorld = async () => {
-  const hello = ["H", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d", "!"];
+  const hello = ["H", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d", "! in native"];
   await delay(800, null);
   return {value: hello.join('')};
 };

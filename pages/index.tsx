@@ -37,6 +37,7 @@ const Index = () => {
 
           .providerType {
             font-family: monospace; 
+            font-size: 1.3em;
           }
           .container {
             display: flex;
