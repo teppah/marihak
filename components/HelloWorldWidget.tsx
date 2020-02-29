@@ -34,6 +34,7 @@ const HelloWorldWidget = (props: PropType) => {
           color: #f4f49e;
           font-family: Spartan, sans-serif;
           font-weight: 400;
+          text-align: center;
         }
         #helloValue {
           transition: all 0.2s;
