@@ -12,7 +12,7 @@ const fetcher = async (url: string): Promise<{ value: string }> => {
 };
 
 const urls = {
-  serverless: "/api/serverless-hello",
+  serverless: "/api/serverless-hello"
 };
 
 const getServerlessHelloWorld = async (): Promise<{ value: string }> => {
